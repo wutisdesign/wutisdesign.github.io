@@ -1,0 +1,210 @@
+* {
+ box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+
+header{
+  position:fixed;
+  top:0px;
+  bottom:0px;
+  width: 100%;
+  height: 110px;
+  padding-top: 15px;
+  z-index: 100;
+  background-color: #172C3B;
+}
+
+h1{
+  font-family: 'Fredoka One', cursive;
+  font-size: 40px;
+  color: #19E8D6;
+  padding-left: 187px;
+}
+
+p{
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding-left: 187px;
+  margin-top: 5px;
+}
+
+body {
+  background-color: #28455B;
+}
+
+
+nav{
+  display: block;
+  float: right;
+  margin: none;
+
+}
+
+ul{
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.not-active{
+  opacity: 0.5;
+  pointer-events: none;
+  cursor: default;
+}
+
+.oceanfloor-active{
+  border:2px solid #19E8D6;
+}
+
+
+.image-container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  position: relative;
+  left: 0;
+  z-index: 1;
+  padding-top: 140px;
+}
+
+#eel{
+  position: absolute;
+  z-index: 2;
+  bottom: 130px;
+  left: -81px;
+  cursor: pointer;
+}
+
+.addborder{
+  border: 2px;
+  border-color: white;
+
+}
+
+#leafyseadragon{
+  position: absolute;
+  z-index: 2;
+  right: 441px;
+  bottom: 281px;
+  cursor: pointer;
+}
+
+#octopus{
+  position: absolute;
+  z-index: 2;
+  right: 143px;
+  bottom: 78px;
+  cursor: pointer;
+
+}
+
+.bottom-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+#item1 {
+  width: 100px;
+  margin-left: 20px;
+  display: none;
+  height: 80px;
+}
+
+#item2 {
+  width: 100px;
+  margin-left: 20px;
+  display: none;
+  height: 80px;
+}
+
+#item3 {
+  width: 100px;
+  margin-left: 20px;
+  display: none;
+  height: 80px;
+}
+
+.image-bank{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 95px;
+  width: 768px;
+  margin-right: 50px;
+  border-bottom: 3px #19E8D6;
+  border-bottom-style: dashed;
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+
+.next:link, .next:visited {
+  background-color: #19E8D6;
+  color: #28455B;
+  padding: 14px 25px;
+  border-radius: 50px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Fredoka One', cursive;
+  font-size: 18px;
+  width: 100px;
+}
+
+.next:hover, .next:active {
+  background-color: #13D9C8;
+}
+
+/* start of artic page styles* ----------------------------------------- */
+
+
+#item4 {
+  width: 100px;
+  margin-left: 20px;
+  display: none;
+  height: 80px;
+}
+
+#item5 {
+  width: 100px;
+  margin-left: 20px;
+  display: none;
+  height: 80px;
+}
+
+#item6 {
+  width: 100px;
+  margin-left: 20px;
+  display: none;
+  height: 80px;
+}
+
+#owl{
+  position: absolute;
+  z-index: 2;
+  right: 377px;
+  bottom: -338px;
+  cursor: pointer;
+}
+
+.arctic_mountain{
+  position: relative;
+  left: 0;
+  z-index: 1;
+}
