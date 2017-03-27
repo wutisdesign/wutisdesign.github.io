@@ -90,6 +90,35 @@ $(function(){
     // console.log(counter) 
   });
 
+  $("#snake").click(function(event) {
+  $("#snake").hide();
+    event.preventDefault();
+    $( this ).hide();
+    $("#item11").show("slow");
+    // counter = counter + 1;
+    // console.log(counter) 
+  });
+
+  $("#prairiedog").click(function(event) {
+  $("#prairiedog").hide();
+    event.preventDefault();
+    $( this ).hide();
+    $("#item10").show("slow");
+    // counter = counter + 1;
+    // console.log(counter) 
+  });
+
+  $("#coyote").click(function(event) {
+  $("#coyote").hide();
+    event.preventDefault();
+    $( this ).hide();
+    $("#item12").show("slow");
+    // counter = counter + 1;
+    // console.log(counter) 
+  });
+
+
+
 
 });
 
