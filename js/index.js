@@ -1,16 +1,21 @@
 $(function(){
 
-  // var counter = 0;
-  // $(".message").hide();
+  
+  $(window).load(function(){
+  $('#loader').fadeOut('slow',function(){$(this).remove();});
+  });
 
+  var counter = 0;
+  $("#message").hide();
+    
 
   $("#eel").click(function(event) {
   $("#eel").hide(); // on click hide image in the main container
     event.preventDefault();
     $( this ).hide();
     $( "#item1" ).show("slow"); // show item in image bank
-    // counter = counter + 1;
-    // console.log(counter) 
+    counter = counter + 1;
+    console.log(counter) 
 
   });
   
@@ -19,8 +24,8 @@ $(function(){
     event.preventDefault();
     $( this ).hide();
     $( "#item3" ).show("slow");
-    // counter = counter + 1;
-    // console.log(counter) 
+    counter = counter + 1;
+    console.log(counter) 
 
 
   });
@@ -30,8 +35,8 @@ $(function(){
     event.preventDefault();
     $( this ).hide();
     $( "#item2" ).show("slow");
-    // counter = counter + 1;
-    // console.log(counter) 
+    counter = counter + 1;
+    console.log(counter) 
 
 
   });
